@@ -12,7 +12,7 @@ A curated and continuously maintained collection of open-source software for sat
 
 <p align="center"><strong>English</strong> | <a href="./README_CN.md">中文</a></p>
 
-<p align="center"><strong>30 source-listed tools</strong> &nbsp;·&nbsp; <strong>3 simulation domains</strong></p>
+<p align="center"><strong>26 software projects</strong> &nbsp;·&nbsp; <strong>3 simulation domains</strong></p>
 
 <details>
 <summary><strong>Contents</strong></summary>
@@ -20,7 +20,7 @@ A curated and continuously maintained collection of open-source software for sat
 - [Quick index](#quick-index)
 - [Satellite communication networks and protocols](#satellite-communication-networks-and-protocols) · 16
 - [Orbital analysis and mission dynamics](#orbital-analysis-and-mission-dynamics) · 6
-- [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) · 8
+- [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) · 8 placements, 4 cross-listed
 - [Scope and provenance](#scope-and-provenance)
 - [Contributing](#contributing)
 
@@ -44,7 +44,7 @@ A curated and continuously maintained collection of open-source software for sat
 - [**GMAT**](#gmat) — Mission analysis
 - [**Orekit**](#orekit) — Space-flight dynamics library
 
-#### [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) <sup>8 tools</sup>
+#### [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) <sup>8 placements; 4 cross-listed from network simulation</sup>
 
 - [**GNU Radio**](#gnu-radio) — SDR development and simulation
 - [**gr-dvbs2rx**](#gr-dvbs2rx) — SDR DVB-S2 receiver implementation
@@ -124,6 +124,8 @@ The source lists GMAT as mission-analysis software. Consult the project document
 The source lists Orekit as a space-dynamics computation library. Its primary documentation should be the basis for implementation decisions and numerical-model selection.
 
 ## RF, SDR, and electromagnetic simulation
+
+The source places four SDR-oriented projects in its satellite communication network and protocol section. They are cross-listed here because their use also belongs to RF and SDR workflows; they are not counted twice in the repository total.
 
 | Project | Source classification | Primary project link |
 | --- | --- | --- |

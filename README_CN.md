@@ -12,7 +12,7 @@
 
 <p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
 
-<p align="center"><strong>30 个来源条目</strong> &nbsp;·&nbsp; <strong>3 个仿真方向</strong></p>
+<p align="center"><strong>26 个软件项目</strong> &nbsp;·&nbsp; <strong>3 个仿真方向</strong></p>
 
 <details>
 <summary><strong>目录</strong></summary>
@@ -20,7 +20,7 @@
 - [快速索引](#快速索引)
 - [卫星通信网络与协议仿真](#卫星通信网络与协议仿真) · 16
 - [轨道分析与任务动力学](#轨道分析与任务动力学) · 6
-- [射频、SDR 与电磁仿真](#射频sdr-与电磁仿真) · 8
+- [射频、SDR 与电磁仿真](#射频sdr-与电磁仿真) · 8 个分类位置，其中 4 个交叉收录
 - [范围与来源](#范围与来源)
 - [参与贡献](#参与贡献)
 
@@ -44,7 +44,7 @@
 - [**GMAT**](#gmat) — 任务分析
 - [**Orekit**](#orekit) — 空间飞行动力学库
 
-#### [射频、SDR 与电磁仿真](#射频sdr-与电磁仿真) <sup>8 个工具</sup>
+#### [射频、SDR 与电磁仿真](#射频sdr-与电磁仿真) <sup>8 个分类位置，其中 4 个来自网络仿真分类的交叉收录</sup>
 
 - [**GNU Radio**](#gnu-radio) — SDR 开发与仿真
 - [**gr-dvbs2rx**](#gr-dvbs2rx) — SDR DVB-S2 接收机实现
@@ -124,6 +124,8 @@
 来源列出 Orekit 用于空间动力学计算。工程实现应以其一手文档确定数值模型与版本。
 
 ## 射频、SDR 与电磁仿真
+
+来源将 4 个面向 SDR 的项目放在卫星通信网络与协议仿真类别中。鉴于这些项目也服务于射频与 SDR 工作流，本目录在此交叉收录；它们不会在仓库总数中重复计数。
 
 | 项目 | 来源中的分类或用途 | 一手项目链接 |
 | --- | --- | --- |
