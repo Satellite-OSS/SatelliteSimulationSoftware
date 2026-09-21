@@ -11,13 +11,36 @@ A community-curated list of open-source satellite simulation software, maintaine
 
 ---
 
+## 📋 About This List
+
+Satellite research and engineering use different simulation tools for communication networks, constellation operations, orbital dynamics, and RF or electromagnetic modelling. This repository collects **26 open-source projects across three simulation domains**, with four SDR-oriented projects cross-listed for a total of 30 category placements. It helps researchers and developers discover suitable tools before consulting each project's own documentation.
+
+Everything here is a **third-party link**: the listed projects are maintained by their original teams and organizations. This repository is a navigation summary, not a software distribution; source coverage and link-verification records are kept in the [Scope and provenance](#scope-and-provenance) section.
+
+---
+
+## 🎯 Selection Criteria
+
+1. Directly relevant to satellite communication, orbital analysis, RF, SDR, electromagnetic, or spacecraft-simulation workflows
+2. An open-source project with a primary repository, official project page, or maintained documentation
+3. Supports at least one practical workflow: simulation, modelling, protocol evaluation, mission analysis, signal generation, or engineering validation
+
+---
+
+## Third-Party Simulation Software
+
+The projects below are organised by their primary simulation workflow: satellite communication networks and protocols, orbital analysis and mission dynamics, and RF, SDR, or electromagnetic simulation. Some SDR tools are cross-listed where that makes their use clearer.
+
 <details>
 <summary><strong>Contents</strong></summary>
 
+- [About this list](#about-this-list)
+- [Selection criteria](#selection-criteria)
 - [Quick index](#quick-index)
 - [Satellite communication networks and protocols](#satellite-communication-networks-and-protocols) · 16
 - [Orbital analysis and mission dynamics](#orbital-analysis-and-mission-dynamics) · 6
 - [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) · 8 placements, 4 cross-listed
+- [How to choose](#how-to-choose)
 - [Scope and provenance](#scope-and-provenance)
 - [Contributing](#contributing)
 - [License](#license)
@@ -159,6 +182,17 @@ The source groups both projects beside simulation-oriented tooling. Their primar
 ### MEEP, openEMS, and xnec2c
 
 The source groups these projects as electromagnetic-propagation or antenna-simulation tools. They support different numerical methods and workflows; record solver configuration, geometry, materials, boundaries, and mesh settings with any result shared in this repository.
+
+---
+
+## 🤔 How to Choose
+
+- For **satellite communication networks and constellation protocols**: OpenSAND, icarus-ndnsim, LSNS, SNK, and SNS-3
+- For **satellite IoT and LoRa/LoRaWAN simulation**: FLoRaSat and ChirpStack
+- For **orbital analysis, mission design, and space-flight dynamics**: GMAT, Orekit, Skyfield, CelestLab, and poliastro
+- For **RF, SDR, signal generation, and electromagnetic modelling**: GNU Radio, GPS-SDR-SIM, MEEP, openEMS, and xnec2c
+
+---
 
 ## Scope and provenance
 
