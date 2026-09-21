@@ -1,18 +1,15 @@
-<h1 align="center">Open Satellite Simulation Software</h1>
+<div align="center">
 
-<p align="center">
-A curated and continuously maintained collection of open-source software for satellite communication, orbital analysis, RF, and simulation workflows.
-</p>
+A community-curated list of open-source satellite simulation software, maintained by the **[OPENSAT](https://github.com/Satellite-OSS)** open-source satellite community.
 
-<p align="center">
-  <a href="https://github.com/Satellite-OSS/.github/blob/main/traffic/SatelliteSimulationSoftware.csv" title="Cumulative recorded repository views; updated hourly"><img src="https://raw.githubusercontent.com/Satellite-OSS/.github/main/traffic/SatelliteSimulationSoftware.svg" alt="Total views"></a>
-  <a href="https://github.com/orgs/Satellite-OSS-BUPT/discussions"><img src="https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github" alt="Join the community discussion"></a>
-  <a href="./README_CN.md"><img src="https://img.shields.io/badge/README-简体中文-0969da?style=flat-square&labelColor=555555" alt="Read in Simplified Chinese"></a>
-</p>
+[![Discussions](https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github)](https://github.com/orgs/Satellite-OSS-BUPT/discussions)
+[![README](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-blue?style=flat-square)](README.zh-CN.md)
 
-<p align="center"><strong>English</strong> | <a href="./README_CN.md">中文</a></p>
+**English** | [中文](README.zh-CN.md)
 
-<p align="center"><strong>26 software projects</strong> &nbsp;·&nbsp; <strong>3 simulation domains</strong></p>
+</div>
+
+---
 
 <details>
 <summary><strong>Contents</strong></summary>
@@ -23,6 +20,7 @@ A curated and continuously maintained collection of open-source software for sat
 - [RF, SDR, and electromagnetic simulation](#rf-sdr-and-electromagnetic-simulation) · 8 placements, 4 cross-listed
 - [Scope and provenance](#scope-and-provenance)
 - [Contributing](#contributing)
+- [License](#license)
 
 </details>
 
@@ -168,6 +166,13 @@ This directory is a discovery index, not a distribution of the listed projects. 
 
 The article exposes only part of its detailed list without a paid subscription. This repository deliberately excludes the locked portion. See the [source note](./docs/sources/zhihu-1948060672953917707.md) and [primary-link verification record](./docs/sources/primary-project-links.md) for the extraction boundary, citation, and maintenance rules.
 
-## Contributing
+## 🤝 Contributing
 
-Researchers, developers, students, and satellite enthusiasts are welcome. Please read [the contribution guide](./CONTRIBUTING.md) before opening a pull request, and use [OPENSAT Discussions](https://github.com/orgs/Satellite-OSS-BUPT/discussions) for discovery or categorisation questions.
+Researchers, developers, students and satellite enthusiasts are all welcome. If you know of a project that belongs on this list, open a pull request or start a thread in the Discussions.
+👉 **[Join the Discussions](https://github.com/orgs/Satellite-OSS-BUPT/discussions)**
+
+---
+
+## 📄 License
+
+This document is a curated navigation summary. Licenses and copyrights for each listed project remain with their original repositories.

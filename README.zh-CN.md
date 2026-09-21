@@ -1,18 +1,15 @@
-<h1 align="center">开源卫星仿真软件</h1>
+<div align="center">
 
-<p align="center">
-持续整理卫星通信、轨道分析、射频与仿真工作流相关的开源软件，并保留条目的来源与一手项目链接。
-</p>
+由 **[OPENSAT](https://github.com/Satellite-OSS)** 开源卫星社区维护的一份开源卫星仿真软件清单。
 
-<p align="center">
-  <a href="https://github.com/Satellite-OSS/.github/blob/main/traffic/SatelliteSimulationSoftware.csv" title="累计仓库访问量，每小时更新"><img src="https://raw.githubusercontent.com/Satellite-OSS/.github/main/traffic/SatelliteSimulationSoftware.svg" alt="总访问量"></a>
-  <a href="https://github.com/orgs/Satellite-OSS-BUPT/discussions"><img src="https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github" alt="加入社区讨论"></a>
-  <a href="./README.md"><img src="https://img.shields.io/badge/README-English-0969da?style=flat-square&labelColor=555555" alt="Read in English"></a>
-</p>
+[![Discussions](https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github)](https://github.com/orgs/Satellite-OSS-BUPT/discussions)
+[![README](https://img.shields.io/badge/README-English-blue?style=flat-square)](README.md)
 
-<p align="center"><a href="./README.md">English</a> | <strong>中文</strong></p>
+[English](README.md) | **中文**
 
-<p align="center"><strong>26 个软件项目</strong> &nbsp;·&nbsp; <strong>3 个仿真方向</strong></p>
+</div>
+
+---
 
 <details>
 <summary><strong>目录</strong></summary>
@@ -23,6 +20,7 @@
 - [射频、SDR 与电磁仿真](#射频sdr-与电磁仿真) · 8 个分类位置，其中 4 个交叉收录
 - [范围与来源](#范围与来源)
 - [参与贡献](#参与贡献)
+- [许可](#许可)
 
 </details>
 
@@ -168,6 +166,13 @@ FLoRaSat 是面向 LoRa/LoRaWAN 卫星物联网的 OMNeT++ 离散事件仿真框
 
 原文详情列表的其余部分受付费订阅限制。本仓库不会尝试解锁、抓取或收录该受限内容。可见范围、引用方式及维护规则见[来源注记](./docs/sources/zhihu-1948060672953917707.md)与[一手链接核验记录](./docs/sources/primary-project-links.md)。
 
-## 参与贡献
+## 🤝 参与贡献
 
-欢迎研究人员、开发者、学生和卫星爱好者参与。提交前请阅读[贡献指南](./CONTRIBUTING.md)；发现新条目或分类问题，可在 [OPENSAT Discussions](https://github.com/orgs/Satellite-OSS-BUPT/discussions) 中讨论。
+研究人员、开发者、学生和卫星爱好者都欢迎加入。如果你知道有项目应该出现在这份清单里，欢迎提交 pull request，或在 Discussions 里发起讨论。
+👉 **[Join the Discussions](https://github.com/orgs/Satellite-OSS-BUPT/discussions)**
+
+---
+
+## 📄 许可
+
+本文档是一份导航式的资源汇总。各项目的许可证与版权仍归其原始仓库所有。
