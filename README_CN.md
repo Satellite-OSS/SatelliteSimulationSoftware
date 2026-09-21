@@ -61,14 +61,14 @@
 | **LSNS** | 支持拓扑、路由、缓存与轨道计算的大规模卫星网络仿真。 | [GitHub](https://github.com/infonetlijian/Large-Scale-Satellite-Network-Simulator-LSNS) |
 | **SatSIM** | 面向编队飞行测试与验证的实时多卫星仿真。 | [GitHub](https://github.com/ssc-ai/satsim) |
 | **SNK** | 用于星座路由与网络性能评估的空间网络仿真。 | [GitHub](https://github.com/xdr940/snk) |
-| **SNS3** | 基于 ns-3 的卫星通信网络模拟器。 | 待核验来源链接 |
-| **gr-opssat** | 小卫星调制解调器仿真。 | 待核验来源链接 |
+| **SNS-3（SNS3）** | 面向 ns-3 的卫星网络扩展模块。 | [GitHub](https://github.com/sns3/sns3-satellite) |
+| **gr-opssat** | ESA OPS-SAT UHF 信号接收、解调与解码工具，不是仿真器。 | [GitHub](https://github.com/esa/gr-opssat) |
 | **Leandvb** | 轻量级 DVB-S/DVB-S2 实现。 | [项目页](http://www.pabr.org/radio/leandvb/leandvb.en.html) |
 | **gr-dvbs2rx** | 面向 SDR 工作流的 GNU Radio DVB-S2 接收机实现。 | [GitHub](https://github.com/igorauad/gr-dvbs2rx) |
-| **OpenLTE** | 3GPP 仿真。 | 待核验来源链接 |
+| **OpenLTE** | LTE FDD SDR 实现与测试工具，属于通用 3GPP LTE 工具，而非卫星专用仿真器。 | [SourceForge](https://sourceforge.net/projects/openlte/) · [GitHub 源码](https://github.com/osh/openlte) |
 | **OAI-RAN / OAI-CN** | 对齐 3GPP 的无线接入网与核心网实现、仿真环境。 | [OpenAirInterface](https://openairinterface.org/) |
 | **free5GC** | 来源列为用于仿真工作的 3GPP 核心网实现。 | [GitHub](https://github.com/free5gc/free5gc) |
-| **FLoRaSat** | 卫星物联网仿真。 | 待核验来源链接 |
+| **FLoRaSat** | 基于 OMNeT++ 的端到端卫星物联网离散事件仿真，采用 LoRa/LoRaWAN 空天适配。 | [GitHub](https://github.com/viveris/FLoRaSat) |
 | **ChirpStack** | 卫星物联网仿真支撑。 | [官网](https://www.chirpstack.io/) |
 | **GPS-SDR-SIM** | GPS 信号仿真。 | [GitHub](https://github.com/osqzss/gps-sdr-sim) |
 
@@ -95,6 +95,14 @@
 ### SNK
 
 来源将 SNK 描述为面向互联网服务星座网络性能评估的空间网络仿真框架，涉及路由以及时延、拉伸、容量和吞吐量等指标。
+
+### SNS-3
+
+SNS-3 在来源列表中写作 `SNS3`，是面向 ns-3 的卫星网络扩展模块。一手 README 指出其由 `satellite`、`traffic` 与 `magister-stats` 三个模块构成，并建议按支持的 ns-3 版本匹配同一发布标签。
+
+### FLoRaSat
+
+FLoRaSat 是面向 LoRa/LoRaWAN 卫星物联网的 OMNeT++ 离散事件仿真框架。一手文档描述了空天地物联网模型，包括卫星网关、轨道传播、星间链路、路由和地面段。
 
 ## 轨道分析与任务动力学
 
@@ -130,7 +138,7 @@
 | 项目 | 来源中的分类或用途 | 一手项目链接 |
 | --- | --- | --- |
 | **GNU Radio** | SDR 仿真与开发。 | [GitHub](https://github.com/gnuradio/gnuradio) |
-| **gr-opssat** | 小卫星调制解调器仿真。 | 待核验来源链接 |
+| **gr-opssat** | OPS-SAT UHF 信号接收、解调与解码工具，不是仿真器。 | [GitHub](https://github.com/esa/gr-opssat) |
 | **Leandvb** | DVB-S/DVB-S2 实现。 | [项目页](http://www.pabr.org/radio/leandvb/leandvb.en.html) |
 | **gr-dvbs2rx** | 面向 SDR 的 DVB-S2 接收机实现。 | [GitHub](https://github.com/igorauad/gr-dvbs2rx) |
 | **GPS-SDR-SIM** | GPS 信号仿真。 | [GitHub](https://github.com/osqzss/gps-sdr-sim) |
@@ -146,6 +154,10 @@
 
 来源将 gr-dvbs2rx 描述为面向 SDR 的 DVB-S2 发射与接收实现，包含物理层同步、前向纠错和 BBFRAME 处理相关模块。
 
+### gr-opssat 与 OpenLTE
+
+来源将两个项目列在仿真工具附近；一手文档则分别将 `gr-opssat` 定义为 ESA OPS-SAT UHF 信号的接收、解调与解码工具，将 OpenLTE 定义为带测试工具的 LTE FDD SDR 实现。二者都可作为通信工作流的支撑工具，但本目录按维护文档而非原始列表中的简写重新标注。
+
 ### MEEP、openEMS 与 xnec2c
 
 来源将这三个项目归为电磁传播或天线仿真工具。它们采用的数值方法与工作流不同；共享结果时应记录求解器配置、几何、材料、边界和网格设置。
@@ -154,7 +166,7 @@
 
 本仓库是发现与选型索引，并不分发所列项目。上表项目名及来源分类，来自所给知乎文章的公开可见部分；条目说明均为压缩转述。项目链接优先采用文章可见的一手链接，或为同名项目补充的项目维护页面；使用具体版本前请自行核验链接。
 
-原文详情列表的其余部分受付费订阅限制。本仓库不会尝试解锁、抓取或收录该受限内容。可见范围、引用方式及维护规则见[来源注记](./docs/sources/zhihu-1948060672953917707.md)。
+原文详情列表的其余部分受付费订阅限制。本仓库不会尝试解锁、抓取或收录该受限内容。可见范围、引用方式及维护规则见[来源注记](./docs/sources/zhihu-1948060672953917707.md)与[一手链接核验记录](./docs/sources/primary-project-links.md)。
 
 ## 参与贡献
 

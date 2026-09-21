@@ -12,8 +12,8 @@ Thank you for improving the SatelliteSimulationSoftware directory.
 
 ## Source-status labels
 
-- `Source link pending verification`: the supplied source names the project, but a primary link has not yet been independently verified.
-- `Source-listed`: the source explicitly lists the project in a relevant category; this is not an endorsement or a claim that every release remains maintained.
+- `Source-listed`: the cited source explicitly lists the project in a relevant category. This is not an endorsement or a claim that every release remains maintained.
+- `Primary link verified`: the catalog entry includes an official repository, maintained project page, or official documentation link that has been checked by a contributor.
 
 ## Pull requests
 

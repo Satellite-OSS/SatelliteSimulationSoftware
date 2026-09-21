@@ -3,3 +3,6 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Temporary project clones used only for source-link verification.
+/.source-review-*/

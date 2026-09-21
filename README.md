@@ -61,14 +61,14 @@ A curated and continuously maintained collection of open-source software for sat
 | **LSNS** | Large-scale satellite-network simulation with topology, routing, caching, and orbit-calculation support. | [GitHub](https://github.com/infonetlijian/Large-Scale-Satellite-Network-Simulator-LSNS) |
 | **SatSIM** | Real-time multi-satellite simulation for formation-flight testing and validation. | [GitHub](https://github.com/ssc-ai/satsim) |
 | **SNK** | Space-network simulation for evaluating constellation routing and performance indicators. | [GitHub](https://github.com/xdr940/snk) |
-| **SNS3** | Satellite communication network simulator based on ns-3. | Source link pending verification |
-| **gr-opssat** | Small-satellite modem simulation. | Source link pending verification |
+| **SNS-3 (SNS3)** | Satellite-network extension module for ns-3. | [GitHub](https://github.com/sns3/sns3-satellite) |
+| **gr-opssat** | ESA OPS-SAT UHF signal reception, demodulation, and decoding tools; not a simulator. | [GitHub](https://github.com/esa/gr-opssat) |
 | **Leandvb** | Lightweight DVB-S/DVB-S2 implementation. | [Project page](http://www.pabr.org/radio/leandvb/leandvb.en.html) |
 | **gr-dvbs2rx** | GNU Radio-based DVB-S2 receiver implementation for SDR workflows. | [GitHub](https://github.com/igorauad/gr-dvbs2rx) |
-| **OpenLTE** | 3GPP simulation. | Source link pending verification |
+| **OpenLTE** | LTE FDD SDR implementation and test utilities; general 3GPP LTE tooling, not satellite-specific simulation. | [SourceForge](https://sourceforge.net/projects/openlte/) · [GitHub source](https://github.com/osh/openlte) |
 | **OAI-RAN / OAI-CN** | 3GPP-aligned radio access and core-network implementation and simulation environment. | [OpenAirInterface](https://openairinterface.org/) |
 | **free5GC** | 3GPP core-network implementation referenced for simulation work. | [GitHub](https://github.com/free5gc/free5gc) |
-| **FLoRaSat** | Satellite IoT simulation. | Source link pending verification |
+| **FLoRaSat** | OMNeT++ discrete-event simulation for end-to-end satellite IoT using LoRa/LoRaWAN adaptations. | [GitHub](https://github.com/viveris/FLoRaSat) |
 | **ChirpStack** | Satellite IoT simulation support. | [Website](https://www.chirpstack.io/) |
 | **GPS-SDR-SIM** | GPS signal simulation. | [GitHub](https://github.com/osqzss/gps-sdr-sim) |
 
@@ -95,6 +95,14 @@ The source describes SatSIM as a TensorFlow and CUDA-based high-fidelity multi-s
 ### SNK
 
 The source describes SNK as a constellation-network framework for routing and network-performance studies, including latency, stretch, capacity, and throughput.
+
+### SNS-3
+
+SNS-3, rendered as `SNS3` in the source list, is a satellite-network extension module for ns-3. Its primary README identifies separate `satellite`, `traffic`, and `magister-stats` modules, and recommends matching release tags with the supported ns-3 version.
+
+### FLoRaSat
+
+FLoRaSat is an OMNeT++ discrete-event framework for end-to-end LoRa and LoRaWAN satellite-IoT simulations. Its primary documentation describes extensions for space-terrestrial IoT models, including satellite gateways, orbital propagation, inter-satellite links, routing, and ground segments.
 
 ## Orbital analysis and mission dynamics
 
@@ -130,7 +138,7 @@ The source places four SDR-oriented projects in its satellite communication netw
 | Project | Source classification | Primary project link |
 | --- | --- | --- |
 | **GNU Radio** | SDR simulation and development. | [GitHub](https://github.com/gnuradio/gnuradio) |
-| **gr-opssat** | Small-satellite modem simulation. | Source link pending verification |
+| **gr-opssat** | OPS-SAT UHF reception, demodulation, and decoding tools; not a simulator. | [GitHub](https://github.com/esa/gr-opssat) |
 | **Leandvb** | DVB-S/DVB-S2 implementation. | [Project page](http://www.pabr.org/radio/leandvb/leandvb.en.html) |
 | **gr-dvbs2rx** | SDR-oriented DVB-S2 receiver implementation. | [GitHub](https://github.com/igorauad/gr-dvbs2rx) |
 | **GPS-SDR-SIM** | GPS signal simulation. | [GitHub](https://github.com/osqzss/gps-sdr-sim) |
@@ -146,6 +154,10 @@ The source lists GNU Radio under SDR simulation. It is a general-purpose signal-
 
 The source describes gr-dvbs2rx as an SDR-oriented DVB-S2 transmitter and receiver implementation with processing blocks for physical-layer synchronisation, forward error correction, and BBFRAME handling.
 
+### gr-opssat and OpenLTE
+
+The source groups both projects beside simulation-oriented tooling. Their primary documentation instead describes `gr-opssat` as a receiver, demodulator, and decoder for ESA OPS-SAT UHF signals, and OpenLTE as an LTE FDD SDR implementation with test utilities. They remain useful supporting tools but are labelled here according to their maintained documentation.
+
 ### MEEP, openEMS, and xnec2c
 
 The source groups these projects as electromagnetic-propagation or antenna-simulation tools. They support different numerical methods and workflows; record solver configuration, geometry, materials, boundaries, and mesh settings with any result shared in this repository.
@@ -154,7 +166,7 @@ The source groups these projects as electromagnetic-propagation or antenna-simul
 
 This directory is a discovery index, not a distribution of the listed projects. Project names and the source classifications above are extracted and condensed from the publicly visible part of the referenced Zhihu article. Project links point to primary project pages where they were visible in the article or where a project-maintained page was identified from the named project; contributors should check the link before relying on a release.
 
-The article exposes only part of its detailed list without a paid subscription. This repository deliberately excludes the locked portion. See the [source note](./docs/sources/zhihu-1948060672953917707.md) for the extraction boundary, citation, and maintenance rules.
+The article exposes only part of its detailed list without a paid subscription. This repository deliberately excludes the locked portion. See the [source note](./docs/sources/zhihu-1948060672953917707.md) and [primary-link verification record](./docs/sources/primary-project-links.md) for the extraction boundary, citation, and maintenance rules.
 
 ## Contributing
 
