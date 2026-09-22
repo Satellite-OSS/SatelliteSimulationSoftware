@@ -197,7 +197,7 @@ The source groups these projects as electromagnetic-propagation or antenna-simul
 
 ## Scope and provenance
 
-This directory is a discovery index, not a distribution of the listed projects. Project names and the source classifications above are extracted and condensed from the publicly visible part of the referenced Zhihu article. Project links point to primary project pages where they were visible in the article or where a project-maintained page was identified from the named project; contributors should check the link before relying on a release.
+This directory is a discovery index, not a distribution of the listed projects. Project links point to primary project pages where they were visible in the article or where a project-maintained page was identified from the named project; contributors should check the link before relying on a release.
 
 ## 🤝 Contributing
 
