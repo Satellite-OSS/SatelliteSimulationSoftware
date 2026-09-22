@@ -2,6 +2,7 @@
 
 A community-curated list of open-source satellite simulation software, maintained by the **[OPENSAT](https://github.com/Satellite-OSS)** open-source satellite community.
 
+[![Total views](https://raw.githubusercontent.com/Satellite-OSS/.github/main/traffic/SatelliteSimulationSoftware.svg)](https://github.com/Satellite-OSS/.github/blob/main/traffic/SatelliteSimulationSoftware.csv "Cumulative recorded repository views; updated hourly")
 [![Discussions](https://img.shields.io/badge/Discussions-Join%20the%20Community-2ea44f?style=flat-square&logo=github)](https://github.com/orgs/Satellite-OSS-BUPT/discussions)
 [![README](https://img.shields.io/badge/README-%E4%B8%AD%E6%96%87-blue?style=flat-square)](README.zh-CN.md)
 
