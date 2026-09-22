@@ -199,8 +199,6 @@ The source groups these projects as electromagnetic-propagation or antenna-simul
 
 This directory is a discovery index, not a distribution of the listed projects. Project names and the source classifications above are extracted and condensed from the publicly visible part of the referenced Zhihu article. Project links point to primary project pages where they were visible in the article or where a project-maintained page was identified from the named project; contributors should check the link before relying on a release.
 
-The article exposes only part of its detailed list without a paid subscription. This repository deliberately excludes the locked portion. See the [source note](./docs/sources/zhihu-1948060672953917707.md) and [primary-link verification record](./docs/sources/primary-project-links.md) for the extraction boundary, citation, and maintenance rules.
-
 ## 🤝 Contributing
 
 Researchers, developers, students and satellite enthusiasts are all welcome. If you know of a project that belongs on this list, open a pull request or start a thread in the Discussions.
